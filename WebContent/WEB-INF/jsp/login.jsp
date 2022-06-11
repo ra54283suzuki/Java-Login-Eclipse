@@ -10,7 +10,7 @@
 <body>
 	<div class="mx-auto" style="width: 300px;">
 		<h1 class="mb-3" style="text-align: center">ログイン画面</h1>
-		<form action="/CustomerRepo/LoginServlet" method="post">
+		<form action="/Java-Login-Eclipse/LoginServlet" method="post">
 		  <div class="mb-3">
 		    <label for="userName" class="form-label">ユーザー名</label>
 		    <input type="text" class="form-control" id="userName" name="user_name">
