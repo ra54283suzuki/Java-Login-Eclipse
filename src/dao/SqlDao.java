@@ -18,7 +18,7 @@ import dto.LoginUser;
 //アクセスロジック(DAO)
 public class SqlDao {
 		//DBconfig.propertiesのフルパス
-		public final String file_path = "/Applications/Eclipse_2020-12.app/Contents/workspace/Java-Login-Eclipse/DBconfig.properties";
+		public final String file_path = "/usr/local/tomcat/webapps/Java-Login-Eclipse/DBconfig.properties";
 		//DBconfigのオブジェクト生成
 		DBconfig config = new DBconfig();
 
